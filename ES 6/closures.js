@@ -37,3 +37,18 @@ double.push(num*2);
 console.log(double);
 
 //map filter and reduce
+
+const mapArray = arr1.map(num => num*2);
+
+console.log('map',mapArray);
+
+//filter
+const filterArray = arr1.filter(num => num>4);
+console.log('filterArray',filterArray);
+//reduce
+
+const reduceArray = arr1.reduce((acc,num) => {
+return acc + num;
+},5);
+
+console.log('Reduce Array',reduceArray);
